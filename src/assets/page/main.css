@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.header h1 {
+  font-size: 16px;
+  color: gray;
+  margin: 10px 0;
+}
+
+.header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin: 10px 0;
+}
+
+.header h2 .highlight {
+  color: green;
+}
+
+.header p {
+  font-size: 16px;
+  color: #666;
+  margin: 20px 0;
+}
+
+.shop-now-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.shop-now-btn:hover {
+  background-color: darkgreen;
+}
+
+.plants {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-plant {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.small-plant {
+  width: 100px;
+}
